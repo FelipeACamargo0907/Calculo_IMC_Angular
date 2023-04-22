@@ -1,0 +1,45 @@
+h1{
+    color: rgb(31, 94, 175);
+    margin-bottom: 3pc;
+}
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.input {
+    margin-top: 6px;
+    margin-bottom: 4px;
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 10px;
+    border-width: 0.4px;
+    border-style: solid;
+    border-color: rgb(31, 94, 175);                                                                     
+    box-shadow: 0 0 px rgba(0, 0, 0, 0.2);
+}
+button {
+    margin-top: 10px;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(31, 94, 175);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+    background-color: rgb(0, 42, 96);
+}
+h3{
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 35%;
+    background-color: rgb(255, 82, 2);
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);  
+}

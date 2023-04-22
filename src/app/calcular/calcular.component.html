@@ -1,1 +1,29 @@
-<p>calcular works!</p>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de IMC</title>
+</head>
+<body><br>
+    <h1>Cálculo de IMC</h1>
+    <div>
+        <span>Altura <small>(ex: 1.80)</small></span><br>
+        <input class="input" [(ngModel)]="altura" type="text" placeholder="Metros" maxlength="4"><br><br>
+    </div>
+    <div>
+        <span>Peso <small>(ex: 80.5)</small></span><br>
+        <input class="input" [(ngModel)]="peso" type="text" placeholder="Quilos" maxlength="6"><br><br>
+    </div>
+
+    <div>
+        <span>Sexo</span><br>
+        <select class="input" class="select" [(ngModel)]="sexo" class="select">
+            <option value=""></option>
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+        </select>
+    </div>
+    <br>
+    <button type="button" (click)="Calcular()">Calcular</button><br><br>
+    <h3><div style="white-space: pre-line">{{resultado}}</div></h3>
+  
